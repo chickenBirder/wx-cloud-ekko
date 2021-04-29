@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<view class="swiperImage">
+    <swiper indicator-dots="{{indicatorDots}}"
+            autoplay = "{{autoplay}}"
+            interval = "{{interval}}"
+            circular = "{{circular}}">
+        <block wx:for="{{scrollImageList}}" wx:key="_id">
+            <swiper-item>
+                <image class="imageItem" src="{{item.imagePath}}"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+
+

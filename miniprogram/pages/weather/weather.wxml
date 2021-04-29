@@ -1,0 +1,33 @@
+<!--pages/weather/weather.wxml-->
+<page-meta>
+	<navigation-bar 
+		title = "{{nbTitle}}"
+		front-color = "{{nbFrontColor}}"
+		background-color = "{{nbBackgroundColor}}">
+	</navigation-bar>
+</page-meta>
+<view class = "weather">
+	<view class="myProvince">
+		{{province}}
+	</view>
+	<view class = "myCity">
+		{{city}}
+	</view>
+	<view class="cityTemperature">
+		温度：{{temperature}}
+	</view>
+	<view class = "cityHumidity">
+		湿度：{{humidity}}
+	</view>
+	<view class="cityWeather">
+		天气：{{weather}}
+	</view>
+	<view class="cityWinddirection">
+		风向：{{winddirection}}
+	</view>
+	<view class = "cityWindpower">
+		风力：{{windpower}}
+	</view>
+</view>
+
+

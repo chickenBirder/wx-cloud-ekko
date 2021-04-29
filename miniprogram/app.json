@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/conclude/conclude",
+    "pages/myself/myself",
+    "pages/coffe/coffe",
+    "pages/weather/weather",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text":"首页",
+        "iconPath":"/images/icons/wx-首页.png",
+        "selectedIconPath":"/images/icons/wx-首页-selected.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text":"分类",
+        "iconPath":"/images/icons/wx-分类.png",
+        "selectedIconPath":"/images/icons/wx-分类-selected.png"
+      },
+      {
+        "pagePath": "pages/coffe/coffe",
+        "text":"留白",
+        "iconPath":"/images/icons/wx-咖啡.png",
+        "selectedIconPath":"/images/icons/wx-咖啡-selected.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text":"我的",
+        "iconPath":"/images/icons/wx-我的.png",
+        "selectedIconPath":"/images/icons/wx-我的-selected.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "秋蝉夏鸣",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
